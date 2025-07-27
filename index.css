@@ -1,0 +1,105 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(black-sand.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.profile {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    min-height: 40vh;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.about-section {
+    background-color: rgba(211, 211, 211, 0.9);
+    padding: 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 35px;
+}
+
+.about-section p {
+    font-size: 28px;
+}
+.skills-section {
+    background-color: rgba(211, 211, 211, 0.9);
+    text-align: center;
+}
+
+.skills-section-headline {
+    font-size: 35px;
+}
+
+.skills-section-table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.skills-section-table th,
+.skills-section-table td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+}
+.hobbies-section {
+    background-color: rgba(211, 211, 211, 0.9);
+}
+.hobbies-section h1 {
+    font-size: 35px;
+}
+.contact-section {
+    background-color: rgba(211, 211, 211, 0.9);
+    text-align: center;
+}
+.contact-section a {
+    text-align: center;
+}
+
+.contact-icons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-icons img {
+    margin: 40px;
+    transition: transform 0.3s ease;
+}
+
+.contact-icons img:hover {
+    transform: scale(1.2);
+}
